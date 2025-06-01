@@ -24,6 +24,13 @@
             </li>
         {/each}
       </ul>
+      <span class="position-absolute bottom-0 end-0 m-3 author">Autor: Mateus Ribeiro Neves Martins</span>
     </div>
   </div>
 </nav>
+
+<style>
+  .author {
+    font-size: 14px
+  }
+</style>
