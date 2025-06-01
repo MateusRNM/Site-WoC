@@ -15,17 +15,21 @@
     let resultado = $state([0, 0, 0, 0]) // pv, ed, vc, ve
 
     function calcularResultado(){
-        forca = Number.parseInt(forca) || 1
-        vitalidade = Number.parseInt(vitalidade) || 1
-        intelecto = Number.parseInt(intelecto) || 1
-        espirito = Number.parseInt(espirito) || 1
-        agilidade = Number.parseInt(agilidade) || 1
-        pvB = Number.parseInt(pvB) || 0
-        edB = Number.parseInt(edB) || 0
-        vcB = Number.parseInt(vcB) || 0
-        veB = Number.parseInt(veB) || 0
-        classeSelected = Number.parseInt(classeSelected) || 0
-        nivel = Number.parseInt(nivel) || 1
+		if ( 
+			forca === "" || vitalidade === "" || intelecto === "" || espirito === "" || agilidade === "" || pvB === "" || edB === "" || vcB === "" || veB === ""
+			|| classeSelected === "" || nivel === ""
+		) return
+        forca = Number.parseInt(forca) 
+        vitalidade = Number.parseInt(vitalidade)
+        intelecto = Number.parseInt(intelecto) 
+        espirito = Number.parseInt(espirito) 
+        agilidade = Number.parseInt(agilidade) 
+        pvB = Number.parseInt(pvB) 
+        edB = Number.parseInt(edB) 
+        vcB = Number.parseInt(vcB) 
+        veB = Number.parseInt(veB) 
+        classeSelected = Number.parseInt(classeSelected) 
+        nivel = Number.parseInt(nivel) 
         let pv, ed, vc, ve
         let nFinal = nivel-1
         if(classeSelected == 0){
@@ -103,6 +107,7 @@
         }
         resultado = [pv, ed, vc, ve]
     }
+	calcularResultado()
 </script>
 
 <svelte:head>

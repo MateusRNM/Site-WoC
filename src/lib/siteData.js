@@ -32,7 +32,7 @@ export const Tabs = [
 
 export const quartetoConhecido = [
   { image: athanasius, name: 'Athanasius Meine', desc: 'Athanasius é um agente da Vanguarda extremamente orgulhoso. Ele é aluno do próprio líder da Vanguarda: Alexander Roux.' },
-  { image: wukky, name: 'Sun Wukky', desc: 'Wukky é um jovem garoto com características de macaco que atualmente é um membro da Vanguarda. Wukky é um guerreiro com talento nato em utilizar bastão, sempre é solidário e gosta de ajudar seus próximos, o maior fã de frutinhas e seu forte definitivamente não é intelecto' },
+  { image: wukky, name: 'Sun Wukky', desc: 'Wukky é um jovem garoto com características de macaco que atualmente é um membro da Vanguarda. Wukky é um guerreiro com talento nato em utilizar bastão, sempre é solidário e gosta de ajudar seus próximos, o maior fã de frutinhas e seu forte definitivamente não é intelecto.' },
   { image: elric, name: 'Elric Lunaris', desc: 'Elric é um agente da Vanguarda que é aluno de Remus Legere, um membro da equipe de elite da Vanguarda. Ele é extremamente bondoso e sempre tenta animar o ambiente por onde passa com seu bom humor.' },
   { image: a6S, name: '6S', desc: '?' },
 ]
