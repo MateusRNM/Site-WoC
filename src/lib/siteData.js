@@ -2,13 +2,13 @@ import { writable } from "svelte/store";
 
 export const tabActive = writable(-1)
 export const Tabs = [
-    { name: 'Tabelas', href: '/tabelas' },
-    { name: 'Regras', href: '/regras' },
-    { name: 'Classes', href: '/classes' },
-    { name: 'Poderes', href: '/poderes' },
-    { name: 'Origens', href: '/origens' },
-    { name: 'Calculadora de Status', href: '/calculadoradestatus' },
-    { name: 'Mapa-múndi', href: '/mapa' },
+    { name: 'Tabelas', href: '/Site-WoC/tabelas' },
+    { name: 'Regras', href: '/Site-WoC/regras' },
+    { name: 'Classes', href: '/Site-WoC/classes' },
+    { name: 'Poderes', href: '/Site-WoC/poderes' },
+    { name: 'Origens', href: '/Site-WoC/origens' },
+    { name: 'Calculadora de Status', href: '/Site-WoC/calculadoradestatus' },
+    { name: 'Mapa-múndi', href: '/Site-WoC/mapa' },
 ]
 
 export const niveisTable = [

@@ -9,7 +9,7 @@
 
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
-    <a class="navbar-brand" href="/">
+    <a class="navbar-brand" href="/Site-WoC">
         <img src={Logo} alt="" width="20" height="20" class="d-inline-block align-text-top">
         WoC
     </a>
