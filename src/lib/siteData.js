@@ -1,4 +1,22 @@
 import { writable } from "svelte/store";
+import alexanderRoux from '$lib/assets/npcsImage/AlexanderRoux.png'
+import damianCaelum from '$lib/assets/npcsImage/DamianCaelum.png'
+import dandaraMist from '$lib/assets/npcsImage/DandaraMist.png'
+import fenrirAres from '$lib/assets/npcsImage/FenrirAres.png'
+import mestreCapi from '$lib/assets/npcsImage/MestreCapi.png'
+import remusLegere from '$lib/assets/npcsImage/RemusLegere.png'
+import elizaCaelum from '$lib/assets/npcsImage/ElizaCaelum.png'
+import gladiusBellator from '$lib/assets/npcsImage/GladiusBellator.png'
+import royKinaru from '$lib/assets/npcsImage/RoyKinaru.png'
+import maliaNisab from '$lib/assets/npcsImage/MaliaNisab.png'
+import renusFryr from '$lib/assets/npcsImage/RenusFryr.png'
+import gloriosRyu from '$lib/assets/npcsImage/GloriosRyu.png'
+import dominicSuna from '$lib/assets/npcsImage/DominicSuna.png'
+import darionAres from '$lib/assets/npcsImage/DarionAres.png'
+import athanasius from '$lib/assets/npcsImage/Athanasius.png'
+import wukky from '$lib/assets/npcsImage/SunWukky.png'
+import a6S from '$lib/assets/npcsImage/6S.png'
+import elric from '$lib/assets/npcsImage/ElricLunaris.png'
 
 export const tabActive = writable(-1)
 export const Tabs = [
@@ -9,6 +27,32 @@ export const Tabs = [
     { name: 'Origens', href: '/Site-WoC/origens' },
     { name: 'Calculadora de Status', href: '/Site-WoC/calculadoradestatus' },
     { name: 'Mapa-múndi', href: '/Site-WoC/mapa' },
+    { name: 'NPCs', href: '/Site-WoC/npcs' },
+]
+
+export const quartetoConhecido = [
+  { image: athanasius, name: 'Athanasius Meine', desc: 'Athanasius é um agente da Vanguarda extremamente orgulhoso. Ele é aluno do próprio líder da Vanguarda: Alexander Roux.' },
+  { image: wukky, name: 'Sun Wukky', desc: 'Wukky é um jovem garoto com características de macaco que atualmente é um membro da Vanguarda. Wukky é um guerreiro com talento nato em utilizar bastão, sempre é solidário e gosta de ajudar seus próximos, o maior fã de frutinhas e seu forte definitivamente não é intelecto' },
+  { image: elric, name: 'Elric Lunaris', desc: 'Elric é um agente da Vanguarda que é aluno de Remus Legere, um membro da equipe de elite da Vanguarda. Ele é extremamente bondoso e sempre tenta animar o ambiente por onde passa com seu bom humor.' },
+  { image: a6S, name: '6S', desc: '?' },
+]
+
+export const NPCs = [
+  { image: alexanderRoux, name: 'Alexander Roux', desc: 'O atual líder da Vanguarda da Justiça, também conhecido como o guerreiro mais poderoso vivo. Ele é um líder que sempre se preocupa com seus agentes, e não hesita de se colocar em situações de risco para salvar seus companheiros.' },
+  { image: damianCaelum, name: 'Damian Caelum', desc: 'Damian é um dos agentes de elite da Vanguarda da Justiça. Ele quase sempre está de bom humor, sendo um dos agentes mais carismáticos.' },
+  { image: dandaraMist, name: 'Dandara Mist', desc: 'Dandara é uma das agentes de elite da Vanguarda da Justiça. Ela é conhecida por ser bem calma e fria em missões, apesar de ser bem diferente fora de missões, se mostrando receptiva nessas situações.' },
+  { image: fenrirAres, name: 'Fenrir Ares', desc: 'Fenrir é um dos agentes de elite da Vanguarda da Justiça. Ele sempre é sério, e não fala muito. Ele também é tataraneto do fundador da Vanguarda, Lucian Ares.' },
+  { image: remusLegere, name: 'Remus Legere', desc: 'Remus Legere é um dos agentes mais famosos da Vanguarda atualmente e também faz parte da equipe de elite. Ele é muito inteligente e frio na hora de tomar decisões, e por conta disso, ele é atualmente o líder do centro de pesquisas da Vanguarda.' },
+  { image: mestreCapi, name: 'Mestre Capi', desc: 'Capi Sarukan (conhecido como Mestre Capi) é um dos ex-agentes de elite da Vanguarda, sendo um dos agentes mais renomados da história da organização. Atualmente ele está aposentado, porém ainda é muito respeitado dentro da organização por conta de suas grandes contribuições durante seu tempo de atividade.' },
+  { image: elizaCaelum, name: 'Eliza Caelum', desc: 'Eliza é a irmã mais nova de Damian Caelum. Ela é uma pessoa muito bondosa e é uma excelente agente de suporte, pois seu poder é especializado em cura.' },
+  { image: gladiusBellator, name: 'Gladius Bellator', desc: 'Gladius é um agente da Vanguarda que é reconhecido por sua grande habilidade com espadas, além de sempre agir de forma séria.' },
+  { image: royKinaru, name: 'Roy Kinaru', desc: 'Roy é um agente da Vanguarda que é especialista em utilizar armas de fogo. Ele fez vários treinamentos de arma de fogo com Remus Legere, o melhor da Vanguarda nisso atualmente.' },
+  { image: maliaNisab, name: 'Mália Nisab', desc: 'Mália é uma agente da Vanguarda que se destaca por ser muito inteligente e racional, sendo muito "voada da cabeça" diversas vezes.' },
+  { image: renusFryr, name: 'Renus Fryr', desc: 'Renus é um agente da Vanguarda muito bem humorado e divertido que sempre anda por aí com seu bastão.' },
+  { image: gloriosRyu, name: 'Glorios Ryu', desc: 'Glorios é um agente da Vanguarda que é muito quieto e recluso. Seu poder faz ele capaz de manifestar e manipular sua energia em formas diferentes.' },
+  { image: dominicSuna, name: 'Dominic Suna', desc: 'Dominic é um agente da Vanguarda que entrou na organização recentemente e é visivelmente abalado emocionalmente, pois perdeu seu amigo recentemente em um conflito.' },
+  { image: darionAres, name: 'Darion Ares', desc: 'Darion é um guerreiro que age de forma independente e é irmão de Fenrir Ares. Ele é sempre muito sério, e possui alguns conflitos com seu irmão. Apesar de não ser da Vanguarda, ele age em prol do bem do mundo, ou seja, ele colabora com a Vanguarda diretamente.' },
+  //{ image: , name: '', desc: '' },
 ]
 
 export const niveisTable = [
