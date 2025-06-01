@@ -35,3 +35,13 @@
 		</div>
 	</div>
 </div>
+
+<style>
+	@media(max-height: 740px) {
+        .container {
+			position: relative;
+			left: 50%;
+			transform: translateX(-45%);
+		}
+    }
+</style>

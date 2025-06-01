@@ -18,4 +18,9 @@
     p {
         text-align: justify;
     }
+    @media(max-height: 740px) {
+        p {
+            width: 95%;
+        }
+    }
 </style>
