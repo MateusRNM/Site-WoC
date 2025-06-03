@@ -89,8 +89,7 @@
 		<li>Tamanho: 4 metros de raio ao redor do usuário.</li>
 		<li>Dano extra: +2d.</li>
 		<li>
-			Debuff de desvio / defesa de inimigos: O valor de **treinamento** da perícia de Conjuração do
-			usuário.
+			Debuff de desvio / defesa de inimigos: 1 desvantagem.
 		</li>
 		<li>Custo: 10 EDs para ativar e 5 EDs por rodada para manter.</li>
 	</ul>
@@ -99,8 +98,7 @@
 		<li>Tamanho: 6 metros de raio ao redor do usuário.</li>
 		<li>Dano extra: +4d.</li>
 		<li>
-			Debuff de desvio / defesa de inimigos: 1.5x o valor de **treinamento** da perícia de
-			Conjuração do usuário.
+			Debuff de desvio / defesa de inimigos: 2 desvantagens.
 		</li>
 		<li>Custo: 12 EDs para ativar e 7 EDs por rodada para manter.</li>
 	</ul>
@@ -109,8 +107,7 @@
 		<li>Tamanho: 9 metros de raio ao redor do usuário.</li>
 		<li>Dano extra: +6d.</li>
 		<li>
-			Debuff de desvio / defesa de inimigos: o dobro valor de **treinamento** da perícia de
-			Conjuração do usuário.
+			Debuff de desvio / defesa de inimigos: 3 desvantagens.
 		</li>
 		<li>Custo: 15 EDs para ativar e 10 EDs por rodada para manter.</li>
 	</ul>
